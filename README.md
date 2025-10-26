@@ -1,6 +1,6 @@
 # QIDI-Q2-optimised-start
 
-# AFTER CHANGING PRINTER.CFG MAKE SURE TO RUN Z OFFSET CALIBRATION, INPUT SHAPER CALIBRATION, Z TILT ADJUST AND A FULL BED MESH BEFORE USING YOUR PRINTER
+# AFTER CHANGING PRINTER.CFG MAKE SURE TO RUN INPUT SHAPER CALIBRATION, Z TILT ADJUST AND A FULL BED MESH BEFORE USING YOUR PRINTER
 
 # Changes to gcode_macro.cfg 
 Removed CUT_FILAMENT_1 call from the PRINT_START macro as well as many pointless moves and homing calls (takes print prep time from ~6 minutes to ~3 minutes depending on bed mesh size and nozzle temp)
