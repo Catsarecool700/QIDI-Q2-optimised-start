@@ -21,3 +21,16 @@ Adjusted [controller_fan board_fan] so fan now spins at 30% speed when motors an
 Commented out both [output_pin beeper] and [output_pin Polar_cooler] as I dont like the beeper and the polar cooler is seemingly a upcoming product and not yet avalible
 
 Adjusted [idle_timeout] from 13 hours to 30 minutes
+
+# Additions to fluidd 
+Names printer Q2
+
+Adds all macros to folders and lables them properly 
+
+Adds ASA and PLA preheat options 
+
+Adjusts date to month, day, year and time to 12HR
+
+Disables require confirm on Emergency Stop 
+
+Enables full display
