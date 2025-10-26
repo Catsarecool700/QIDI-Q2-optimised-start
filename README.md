@@ -11,6 +11,8 @@ Added ADAPTIVE=1 to BED_MESH_CALIBRATE in both M4029 and G29
 
 Plans to optimise the number of toolhead homing moves on PRINT_START
 
+Add [screws_tilt_adjust] macro 
+
 # Changes to Printer.cfg
 Added MCU tempreture monitoring using [temperature_sensor SOC] sensor_type: temperature_host
 
@@ -21,6 +23,8 @@ Adjusted [controller_fan board_fan] so fan now spins at 30% speed when motors an
 Commented out both [output_pin beeper] and [output_pin Polar_cooler] as I dont like the beeper and the polar cooler is seemingly a upcoming product and not yet avalible
 
 Adjusted [idle_timeout] from 13 hours to 30 minutes
+
+Replace [bed_screws] with [screws_tilt_adjust] and add screw4_name: rear last screw
 
 # Additions to fluidd 
 Names printer Q2
