@@ -3,7 +3,7 @@
 # AFTER CHANGING PRINTER.CFG MAKE SURE TO RUN Z OFFSET CALIBRATION, INPUT SHAPER CALIBRATION, Z TILT ADJUST AND A FULL BED MESH BEFORE USING YOUR PRINTER
 
 # Changes to gcode_macro.cfg 
-Removed CUT_FILAMENT_1 call from the PRINT_START macro (takes print prep time from ~6:30 minutes to ~5:30 minutes depending on bed mesh size and nozzle temp)
+Removed CUT_FILAMENT_1 call from the PRINT_START macro (takes print prep time from ~6m:30s minutes to ~5m:30s minutes depending on bed mesh size and nozzle temp)
 
 Added comments to explain what some custom macro calls in PRINT_START do
 
